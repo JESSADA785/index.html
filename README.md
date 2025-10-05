@@ -80,7 +80,8 @@
 
   <script>
     let provider, signer, contract;
-    const CONTRACT_ADDRESS = "0xD71C62f34F976ed83526CC64653ade76Ed16BEf3"; // ✅ ใส่ address DNXMasterChef ของคุณ
+    // ✅ อัปเดต Address ใหม่แล้ว
+    const CONTRACT_ADDRESS = "0x9D9649e1710eF013465C34146874F967EEE73B03";
     const ABI = [
       "function deposit(uint256 _amount) external",
       "function withdraw(uint256 _amount) external"
